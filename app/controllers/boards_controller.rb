@@ -12,6 +12,10 @@ class BoardsController < ApplicationController
     
   end
 
+  def show
+    @board = Board.find(params[:id])
+  end
+
   private
 
   def board_params  
