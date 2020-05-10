@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap','~>4.0.0'
 gem 'mini_racer'
+gem 'kaminari'
 
 
 group :development, :test do
