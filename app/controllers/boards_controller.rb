@@ -5,12 +5,10 @@ class BoardsController < ApplicationController
 
   def new
     @board = Board.new
-    # binding.pry
   end
 
   def create
     Board.create(board_params)
-    #binding.pry
     
   end
 
